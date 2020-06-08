@@ -4,18 +4,32 @@
 	box-sizing: border-box;
 }
 
-.menu {
+
+.drop_line {
 	position: relative;
 	display: inline-block;
 }
 
-.dropbtn{
-	background: #4CAF50;
+.drop_button{
 	padding: 16px;
-	color: #FFF;
-	border: none;
+	border: 1px solid rgba(0, 0, 0, .1);
+	float: left;
 }
 
+.dropped_p {
+	display: none;
+	width: 500px;
+	height: 300px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.drop_button:hover .dropped_p {
+	display: block;
+}
+.
 .drop {
 	display: none;
 	/*z-index: 1;*/
