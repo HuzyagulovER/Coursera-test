@@ -1,1 +1,0 @@
-alert("Lorem ipsum dolor sit amet.");
